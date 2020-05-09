@@ -26,7 +26,7 @@ He measures you for a brief moment, then starts back on his blade.
         talk_to_guard = input('\n~~~ Talk to the guard? ')
         if talk_to_guard in yes:
             typewriter('''
-"You have come a long way Saumya... if that is really you.
+"You have come a long way ... if that is really you.
  How long has it been? More than a thousand years at least.
  If you truly are my old friend, none other than the grinning witch, you will know
  what this means..."
@@ -41,7 +41,7 @@ The young man points at a mysterious carving on top the old door...
 
 def hangman():
     underscore = '_ '
-    secret_word = 'gilheri'
+    secret_word = 'maleficent'
 
     secret_lst = list(secret_word)
 
@@ -90,7 +90,7 @@ on top of the altar.
 You pick it up, turn it around and inspect the seal.
 It reads:
 
-                             'SAUMYA'\n
+                             'MALEFICENT'\n
 ''')
         read = input('Break the seal and read the parchment? ')
         if read in yes:
