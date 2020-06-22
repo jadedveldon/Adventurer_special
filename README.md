@@ -1,2 +1,2 @@
 # Adventure_special
-letz go
+Lets go!
